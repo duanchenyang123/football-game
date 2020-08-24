@@ -1,0 +1,2 @@
+gcc client.c ../common/client_recever.c ../common/common.c ../common/udp_server.c ../common/udp_client.c ../common/game.c -lpthread -lncurses $1 $2
+
