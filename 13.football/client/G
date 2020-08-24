@@ -1,0 +1,2 @@
+gcc client.c ../common/client_redraw.c ../common/client_parse_cjson.c ../common/show_strength.c ../common/send_ctl.c ../common/send_chat.c ../common/client_recever.c ../common/common.c ../common/udp_server.c ../common/udp_client.c ../common/game.c -lpthread -lncurses -lcjson $1 $2
+
